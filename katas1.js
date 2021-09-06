@@ -10,7 +10,7 @@ console.log(oneThroughTwenty(20))
 
 function evensToTwenty(n) {
   let result = []
-  for(let i = 0; i <= n; i++){
+  for(let i = 1; i <= n; i++){
     if(i % 2 === 0){
       result.push(i)
     }
@@ -22,7 +22,7 @@ console.log(evensToTwenty(20))
 
 function oddsToTwenty(n) {
   let result = []
-  for(let i = 0; i <= n; i++){
+  for(let i = 1; i <= n; i++){
     if(i % 2 === 1){
       result.push(i)
     }
@@ -33,7 +33,7 @@ console.log(oddsToTwenty(20))
 
 function multiplesOfFive(n) {
   let result = [];
-  for(let i = 0; i <= n; i++){
+  for(let i = 1; i <= n; i++){
     if(i % 5 === 0){
       result.push(i)
     }
